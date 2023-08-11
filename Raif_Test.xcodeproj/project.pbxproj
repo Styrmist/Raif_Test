@@ -9,13 +9,19 @@
 /* Begin PBXBuildFile section */
 		CB7DB3CD2A279AE7008D6562 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7DB3CC2A279AE7008D6562 /* AppDelegate.swift */; };
 		CB7DB3CF2A279AE7008D6562 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7DB3CE2A279AE7008D6562 /* SceneDelegate.swift */; };
-		CB7DB3D12A279AE7008D6562 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7DB3D02A279AE7008D6562 /* ViewController.swift */; };
+		CB7DB3D12A279AE7008D6562 /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7DB3D02A279AE7008D6562 /* UserListViewController.swift */; };
 		CB7DB3D42A279AE7008D6562 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB7DB3D22A279AE7008D6562 /* Main.storyboard */; };
 		CB7DB3D62A279AE9008D6562 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB7DB3D52A279AE9008D6562 /* Assets.xcassets */; };
 		CB7DB3D92A279AE9008D6562 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB7DB3D72A279AE9008D6562 /* LaunchScreen.storyboard */; };
 		CB7DB3E42A279AE9008D6562 /* Raif_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7DB3E32A279AE9008D6562 /* Raif_TestTests.swift */; };
 		CB7DB3EE2A279AE9008D6562 /* Raif_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7DB3ED2A279AE9008D6562 /* Raif_TestUITests.swift */; };
 		CB7DB3F02A279AE9008D6562 /* Raif_TestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7DB3EF2A279AE9008D6562 /* Raif_TestUITestsLaunchTests.swift */; };
+		CB7DB3FE2A279BFA008D6562 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7DB3FD2A279BFA008D6562 /* User.swift */; };
+		CB7DB4002A279CD5008D6562 /* UserListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7DB3FF2A279CD5008D6562 /* UserListViewModel.swift */; };
+		CB7DB4022A279D88008D6562 /* UserListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7DB4012A279D88008D6562 /* UserListModel.swift */; };
+		CB7DB4042A279D95008D6562 /* UserTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7DB4032A279D95008D6562 /* UserTableCell.swift */; };
+		CB7DB4062A279DA2008D6562 /* UsertableCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7DB4052A279DA2008D6562 /* UsertableCellViewModel.swift */; };
+		CB7DB4092A27A22C008D6562 /* UserListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7DB4082A27A22C008D6562 /* UserListService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +45,7 @@
 		CB7DB3C92A279AE7008D6562 /* Raif_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Raif_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB7DB3CC2A279AE7008D6562 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB7DB3CE2A279AE7008D6562 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CB7DB3D02A279AE7008D6562 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB7DB3D02A279AE7008D6562 /* UserListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewController.swift; sourceTree = "<group>"; };
 		CB7DB3D32A279AE7008D6562 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB7DB3D52A279AE9008D6562 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB7DB3D82A279AE9008D6562 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +55,12 @@
 		CB7DB3E92A279AE9008D6562 /* Raif_TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Raif_TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB7DB3ED2A279AE9008D6562 /* Raif_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Raif_TestUITests.swift; sourceTree = "<group>"; };
 		CB7DB3EF2A279AE9008D6562 /* Raif_TestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Raif_TestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CB7DB3FD2A279BFA008D6562 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CB7DB3FF2A279CD5008D6562 /* UserListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewModel.swift; sourceTree = "<group>"; };
+		CB7DB4012A279D88008D6562 /* UserListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListModel.swift; sourceTree = "<group>"; };
+		CB7DB4032A279D95008D6562 /* UserTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableCell.swift; sourceTree = "<group>"; };
+		CB7DB4052A279DA2008D6562 /* UsertableCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsertableCellViewModel.swift; sourceTree = "<group>"; };
+		CB7DB4082A27A22C008D6562 /* UserListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserListService.swift; path = ../../../../../Downloads/UserListService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +111,16 @@
 		CB7DB3CB2A279AE7008D6562 /* Raif_Test */ = {
 			isa = PBXGroup;
 			children = (
+				CB7DB3FC2A279BEF008D6562 /* Models */,
 				CB7DB3CC2A279AE7008D6562 /* AppDelegate.swift */,
 				CB7DB3CE2A279AE7008D6562 /* SceneDelegate.swift */,
-				CB7DB3D02A279AE7008D6562 /* ViewController.swift */,
+				CB7DB3D02A279AE7008D6562 /* UserListViewController.swift */,
+				CB7DB3FF2A279CD5008D6562 /* UserListViewModel.swift */,
+				CB7DB4012A279D88008D6562 /* UserListModel.swift */,
+				CB7DB4032A279D95008D6562 /* UserTableCell.swift */,
+				CB7DB4052A279DA2008D6562 /* UsertableCellViewModel.swift */,
+				CB7DB4082A27A22C008D6562 /* UserListService.swift */,
+				CB7DB4072A279E03008D6562 /* Service */,
 				CB7DB3D22A279AE7008D6562 /* Main.storyboard */,
 				CB7DB3D52A279AE9008D6562 /* Assets.xcassets */,
 				CB7DB3D72A279AE9008D6562 /* LaunchScreen.storyboard */,
@@ -125,6 +144,21 @@
 				CB7DB3EF2A279AE9008D6562 /* Raif_TestUITestsLaunchTests.swift */,
 			);
 			path = Raif_TestUITests;
+			sourceTree = "<group>";
+		};
+		CB7DB3FC2A279BEF008D6562 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CB7DB3FD2A279BFA008D6562 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CB7DB4072A279E03008D6562 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +292,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB7DB3D12A279AE7008D6562 /* ViewController.swift in Sources */,
+				CB7DB4042A279D95008D6562 /* UserTableCell.swift in Sources */,
+				CB7DB4092A27A22C008D6562 /* UserListService.swift in Sources */,
+				CB7DB4022A279D88008D6562 /* UserListModel.swift in Sources */,
+				CB7DB4062A279DA2008D6562 /* UsertableCellViewModel.swift in Sources */,
+				CB7DB3FE2A279BFA008D6562 /* User.swift in Sources */,
+				CB7DB3D12A279AE7008D6562 /* UserListViewController.swift in Sources */,
 				CB7DB3CD2A279AE7008D6562 /* AppDelegate.swift in Sources */,
 				CB7DB3CF2A279AE7008D6562 /* SceneDelegate.swift in Sources */,
+				CB7DB4002A279CD5008D6562 /* UserListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
